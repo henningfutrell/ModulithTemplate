@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Truss.Monads.Results" Version="[0.0.2-alpha.202404190839, )" />
+    <PackageReference Include="Truss.Monads.Results.Extensions.Fluent" Version="[0.0.2-alpha.202404190839, )" />
+    <PackageReference Include="MediatR" Version="[9, )" />
+    <PackageReference Include="Newtonsoft.Json" Version="[3.5.8, 14)" />
+  </ItemGroup>
+
+</Project>

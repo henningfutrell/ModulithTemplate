@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[1, )" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="[1, )" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Modeling.Application\Modeling.Application.csproj" />
+        <ProjectReference Include="..\Modeling.Infrastructure.Abstractions\Modeling.Infrastructure.Abstractions.csproj" />
+        <ProjectReference Include="..\Modeling.Integration.Abstractions\Modeling.Integration.Abstractions.csproj" />
+    </ItemGroup>
+</Project>

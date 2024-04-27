@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="[6, )" />
+        <PackageReference Include="Truss.Monads.Results" Version="[0.0.2-alpha.202404190839, )" />
+    </ItemGroup>
+</Project>
